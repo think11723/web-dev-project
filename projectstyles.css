@@ -8,9 +8,9 @@ body {
     text-align: center;
 }
 
-/* Header */
+
 header {
-    /* background-color: #088473; */
+   
     padding: 10px;
 }
 
@@ -50,7 +50,7 @@ nav ul li  a:hover {
      border: 1px solid  #6c9be2;
 }
 
-/* Sparkling Border Effect */
+
 @keyframes sparkle {
     0% { box-shadow: 0 0 5px white; }
     50% { box-shadow: 0 0 15px white; }
@@ -110,7 +110,6 @@ nav ul li  a:hover {
     flex-direction: column;
 }
 
-/* Book Info */
 .book-info {
     margin: 50px;
     padding: 20px;
@@ -120,7 +119,7 @@ nav ul li  a:hover {
 
 
 
-/* Feedback Form */
+
 form {
     display: flex;
     flex-direction: column;
