@@ -1,0 +1,76 @@
+<!-- Example: action.html (Similar structure for other genres) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Books</title>
+    <link rel="stylesheet" href="action.css">
+</head>
+<body>
+    <header>
+        <h1>Action Books</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adventure.html">Adventure</a></li>
+                <li><a href="mystery.html">Mystery</a></li>
+                <li><a href="fantasy.html">Fantasy</a></li>
+                <li><a href="sci-fi.html">Sci-Fi</a></li>
+                <li><a href="self-improve.html">Self-Improvement</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="book-container">
+        <div class="book-card">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h2>Action Book 1</h2>
+                </div>
+                <div class="book-back">
+                    <p>More details about Action Book 1.</p>
+                    <button onclick="scrollToBook('book1')">Learn More</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="book-card">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h2>Action Book 2</h2>
+                </div>
+                <div class="book-back">
+                    <p>More details about Action Book 2.</p>
+                    <button onclick="scrollToBook('book2')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book1" class="book-info">
+        <h2>Action Book 1 Details</h2>
+        <p>Description of Action Book 1.</p>
+        <p><a href="https://www.amazon.com" target="_blank">Buy on Amazon</a> | 
+           <a href="https://www.flipkart.com" target="_blank">Buy on Flipkart</a></p>
+    </section>
+
+    <section id="book2" class="book-info">
+        <h2>Action Book 2 Details</h2>
+        <p>Description of Action Book 2.</p>
+        <p><a href="https://www.amazon.com" target="_blank">Buy on Amazon</a> | 
+           <a href="https://www.flipkart.com" target="_blank">Buy on Flipkart</a></p>
+    </section>
+
+    <footer>
+        <h2>Feedback</h2>
+        <form id="feedback-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="feedback" placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

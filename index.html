@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Showcase</title>
+    <link rel="stylesheet" href="projectstyles.css">
+</head>
+<body>
+
+    <!-- Header with Navbar -->
+    <header>
+        <h1>Book Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="action.html">Action</a></li>
+                <li><a href="adventure.html">Adventure</a></li>
+                <li><a href="mystery.html">Mystery</a></li>
+                <li><a href="fantasy.html">Fantasy</a></li>
+                <li><a href="sci-fi.html">Sci-Fi</a></li>
+                <li><a href="self-improve.html">Self-Improvement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Book Cards -->
+    <section class="book-container">
+        <div class="book-card">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h2>Book 1</h2>
+                </div>
+                <div class="book-back">
+                    <p>Discover more about Book 1.</p>
+                    <button onclick="scrollToBook('book1')"><a href="#book1" style="text-decoration: none;">Learn More</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-card">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h2>Book 2</h2>
+                </div>
+                <div class="book-back">
+                    <p>Discover more about Book 2.</p>
+                    <button onclick="scrollToBook('book2')"><a href="#book2" style="text-decoration: none;">Learn More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Details -->
+    <section id="book1" class="book-info">
+        <h2>Book 1 Details</h2>
+        <p>Description of Book 1.</p>
+        <p><a href="https://www.amazon.com" target="_blank">Buy on Amazon</a> | 
+           <a href="https://www.flipkart.com" target="_blank">Buy on Flipkart</a></p>
+    </section>
+
+    <section id="book2" class="book-info">
+        <h2>Book 2 Details</h2>
+        <p>Description of Book 2.</p>
+        <p><a href="https://www.amazon.com" target="_blank">Buy on Amazon</a> | 
+           <a href="https://www.flipkart.com" target="_blank">Buy on Flipkart</a></p>
+    </section>
+
+    <!-- Footer with Feedback Form -->
+    <footer>
+        <h2>Give Us Your Feedback</h2>
+        <form id="feedback-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="feedback" placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
