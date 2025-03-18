@@ -27,16 +27,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(7, 3, 3);
     padding: 8px 12px;
-    background-color: #444;
+    background-color: #6c9be2;
     border-radius: 5px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #dca2a2;
+    background-color: #1863b4;
+    padding: 10px 14px;
+     border: 5px solid  #6c9be2;
 }
 
 /* Sparkling Border Effect */
