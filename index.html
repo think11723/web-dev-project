@@ -10,16 +10,11 @@
 
     <!-- Header with Navbar -->
     <header>
-        <h1>Book Showcase</h1>
+        <h1 style="font-size: 50px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">WELCOME TO BOOK LIBRARY</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="action.html">Action</a></li>
-                <li><a href="adventure.html">Adventure</a></li>
-                <li><a href="mystery.html">Mystery</a></li>
-                <li><a href="fantasy.html">Fantasy</a></li>
-                <li><a href="sci-fi.html">Sci-Fi</a></li>
-                <li><a href="self-improve.html">Self-Improvement</a></li>
+                <li><a href="index.html">HOME</a></li>
+               
             </ul>
         </nav>
     </header>
@@ -29,11 +24,11 @@
         <div class="book-card">
             <div class="book-inner">
                 <div class="book-front">
-                    <h2>Book 1</h2>
+                    <img width="100%" height="100%" src="public/pictures/book1.jpg" alt="">
                 </div>
                 <div class="book-back">
                     <p>Discover more about Book 1.</p>
-                    <button onclick="scrollToBook('book1')"><a href="#book1" style="text-decoration: none;">Learn More</a></button>
+                    <button><a href="/book1.html" style="text-decoration: none;">Learn More</a></button>
                 </div>
             </div>
         </div>
@@ -41,41 +36,38 @@
         <div class="book-card">
             <div class="book-inner">
                 <div class="book-front">
-                    <img src="/" alt="">
+                    <img width="100%" height="100%" src="/public/pictures/book2.jpg" alt="">
                 </div>
                 <div class="book-back">
                     <p>Discover more about Book 2.</p>
-                    <button onclick="scrollToBook('book2')"><a href="#book2" style="text-decoration: none;">Learn More</a></button>
+                    <button><a href="/book2.html" style="text-decoration: none;">Learn More</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-card">
+            <div class="book-inner">
+                <div class="book-front">
+                    <img width="100%" height="100%" src="/public/pictures/book3.jpg" alt="">
+                </div>
+                <div class="book-back">
+                    <p>Discover more about Book 3.</p>
+                    <button><a href="/book3.html" style="text-decoration: none;">Learn More</a></button>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Book Details -->
-    <section id="book1" class="book-info">
-        <h2>Book 1 Details</h2>
-        <p>Description of Book 1.</p>
-        <p><a href="https://www.amazon.com" target="_blank">Buy on Amazon</a> | 
-           <a href="https://www.flipkart.com" target="_blank">Buy on Flipkart</a></p>
-    </section>
+   
+   
 
-    <section id="book2" class="book-info">
-        <h2>Book 2 Details</h2>
-        <p>Description of Book 2.</p>
-        <p><a href="https://www.amazon.com" target="_blank">Buy on Amazon</a> | 
-           <a href="https://www.flipkart.com" target="_blank">Buy on Flipkart</a></p>
-    </section>
-
-    <!-- Footer with Feedback Form -->
-    <footer>
-        <h2>Give Us Your Feedback</h2>
-        <form id="feedback-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <textarea id="feedback" placeholder="Your Feedback" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+    
+    <footer style="background-color: cadetblue;color: snow;margin-top: 100px;">
+        <p>©️ 2025 Book Showcase | All rights reserved</p>
     </footer>
 
-    <script src="script.js"></script>
+   
+
+    
 </body>
 </html>

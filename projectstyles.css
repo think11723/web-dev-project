@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(87, 117, 224);
+    background: linear-gradient(45deg,rgb(50, 183, 2),rgb(96, 24, 196) );
+    background-color: rgb(38, 38, 40);
     color: white;
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background-color: #276dd7;
+    /* background-color: #088473; */
     padding: 10px;
 }
 
@@ -35,10 +36,18 @@ nav ul li a {
     transition: 0.3s;
 }
 
-nav ul li a:hover {
-    background-color: #1863b4;
+nav ul li  a:hover {
+    background-color: #171a1d;
+    color: white;
     padding: 10px 14px;
-     border: 5px solid  #6c9be2;
+     border: 1px solid  #6c9be2;
+}
+
+.bookhome {
+    background-color: #171a1d;
+    color: white;
+    padding: 10px 14px;
+     border: 1px solid  #6c9be2;
 }
 
 /* Sparkling Border Effect */
@@ -48,8 +57,8 @@ nav ul li a:hover {
     100% { box-shadow: 0 0 5px white; }
 }
 
-.book-card, .book-info, footer, input, textarea, button {
-    border: 2px solid white;
+.book-card, .book-info, input, textarea, button {
+    border: 2px solid rgb(224, 11, 11);
     animation: sparkle 1.5s infinite alternate;
 }
 
@@ -57,14 +66,15 @@ nav ul li a:hover {
 .book-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 60px;
+    padding: 10px;
 }
 
 .book-card {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     perspective: 1000px;
+    border-radius: 50px;
 }
 
 .book-inner {
@@ -95,7 +105,7 @@ nav ul li a:hover {
 }
 
 .book-back {
-    background-color: darkblue;
+    background-color: rgb(1, 1, 11);
     transform: rotateY(180deg);
     flex-direction: column;
 }
@@ -107,12 +117,8 @@ nav ul li a:hover {
     background: #111;
 }
 
-/* Footer */
-footer {
-    background: #222;
-    padding: 20px;
-    margin-top: 50px;
-}
+
+
 
 /* Feedback Form */
 form {
@@ -127,11 +133,12 @@ input, textarea {
     padding: 10px;
     border-radius: 5px;
     background: #333;
-    color: white;
+    color: rgb(175, 48, 48);
 }
 
 button {
-    background-color: #4CAF50;
+    background-color:  rgb(109, 109, 179);
+    border-radius: 10px;
     color: white;
     padding: 10px;
     border: none;
@@ -139,5 +146,6 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: rgb(29, 29, 67);
 }
+
